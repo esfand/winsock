@@ -1,0 +1,5 @@
+﻿  resolve.cpp
+  IOComplePortServersrc.cpp
+  Generating Code...
+IOComplePortServersrc.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  IOComplePortServer.vcxproj -> C:\Users\esfand\devcpp\winsock\IOComplePortServer\Debug\IOComplePortServer.exe

@@ -1,0 +1,30 @@
+﻿  IOCPS.cpp
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(692): error C2446: '!=': no conversion from 'unsigned int' to 'HANDLE'
+  c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(692): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(1439): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(1460): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(2495): error C2446: '!=': no conversion from 'unsigned int' to 'HANDLE'
+  c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(2495): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(2660): error C2446: '!=': no conversion from 'unsigned int' to 'HANDLE'
+  c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(2660): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(2814): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(3415): note: see declaration of 'WSASocketA'
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(2997): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(2218): note: see declaration of 'gethostbyname'
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(2998): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3043): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1830): note: see declaration of 'inet_addr'
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3313): error C2446: '!=': no conversion from 'int' to 'HANDLE'
+  c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3313): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3408): error C2446: '!=': no conversion from 'int' to 'HANDLE'
+  c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3408): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3426): error C2446: '!=': no conversion from 'int' to 'HANDLE'
+  c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3426): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3463): error C2446: '!=': no conversion from 'int' to 'HANDLE'
+  c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3463): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3515): warning C4018: '>=': signed/unsigned mismatch
+c:\users\esfand\devcpp\winsock\iocp_cp\iocps.cpp(3846): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'

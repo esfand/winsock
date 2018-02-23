@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SocketServerTest>
+	<Threads>
+		<Number>150</Number>
+		<Batch>10</Batch>
+		<DelayMillis>1000</DelayMillis>
+	</Threads>
+	<Protocol>TCP</Protocol>
+	<Messages>
+		<Fragments>true</Fragments>
+		<Multiple>true</Multiple>
+	</Messages>
+	<RandomSeed>112</RandomSeed>
+	<Test>
+		<Host>localhost</Host>
+		<Port>5002</Port>
+		<Name>PacketEchoServerTest.dll</Name>
+		<EntryPoint>ServerTest</EntryPoint>
+		<Parameters>
+			<Conversations>10</Conversations>
+			<Blocks>10</Blocks>
+			<Messages>10</Messages>
+			<MessageSize>100</MessageSize>
+			<MultipleMessages>true</MultipleMessages>
+		</Parameters>
+	</Test>
+</SocketServerTest>

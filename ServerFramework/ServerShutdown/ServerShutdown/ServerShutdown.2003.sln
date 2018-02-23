@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerShutdown", "ServerShutdown.2003.vcproj", "{6781A074-B117-4DDC-9175-AB8D5C002C26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713} = {07BC7118-7D4D-46DF-BBD3-04FFD4C52713}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32Tools", "..\JetByteTools\Win32Tools\Win32Tools.2003.vcproj", "{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Unicode Debug = Unicode Debug
+		Unicode Release = Unicode Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6781A074-B117-4DDC-9175-AB8D5C002C26}.Debug.ActiveCfg = Debug|Win32
+		{6781A074-B117-4DDC-9175-AB8D5C002C26}.Debug.Build.0 = Debug|Win32
+		{6781A074-B117-4DDC-9175-AB8D5C002C26}.Release.ActiveCfg = Release|Win32
+		{6781A074-B117-4DDC-9175-AB8D5C002C26}.Release.Build.0 = Release|Win32
+		{6781A074-B117-4DDC-9175-AB8D5C002C26}.Unicode Debug.ActiveCfg = Debug|Win32
+		{6781A074-B117-4DDC-9175-AB8D5C002C26}.Unicode Debug.Build.0 = Debug|Win32
+		{6781A074-B117-4DDC-9175-AB8D5C002C26}.Unicode Release.ActiveCfg = Release|Win32
+		{6781A074-B117-4DDC-9175-AB8D5C002C26}.Unicode Release.Build.0 = Release|Win32
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}.Debug.ActiveCfg = Debug|Win32
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}.Debug.Build.0 = Debug|Win32
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}.Release.ActiveCfg = Release|Win32
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}.Release.Build.0 = Release|Win32
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{07BC7118-7D4D-46DF-BBD3-04FFD4C52713}.Unicode Release.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SocketServerTest>
+	<Threads>
+		<Number>50</Number>
+		<Batch>5</Batch>
+		<DelayMillis>1000</DelayMillis>
+	</Threads>
+	<Protocol>TCP</Protocol>
+	<Messages>
+		<Fragments>true</Fragments>
+		<Multiple>true</Multiple>
+	</Messages>
+	<RandomSeed>112</RandomSeed>
+	<Test>
+		<Host>localhost</Host>
+		<Port>5001</Port>
+		<Name>SimpleProtocolServerTest.dll</Name>
+		<EntryPoint>ServerTest</EntryPoint>
+		<Parameters>
+			<Conversations>10</Conversations>
+			<Blocks>10</Blocks>
+		</Parameters>
+	</Test>
+</SocketServerTest>

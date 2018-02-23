@@ -1,0 +1,3 @@
+﻿  FileCopy.cpp
+FileCopy.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  10-FileCopy.vcxproj -> C:\Users\esfand\devcpp\winsock\10-FileCopy\Debug\10-FileCopy.exe

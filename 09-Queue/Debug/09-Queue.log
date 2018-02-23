@@ -1,0 +1,3 @@
+﻿  Queue.cpp
+Queue.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  09-Queue.vcxproj -> C:\Users\esfand\devcpp\winsock\09-Queue\Debug\09-Queue.exe

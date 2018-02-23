@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleProtocolServer2", "SimpleProtocolServer2.2003.vcproj", "{8879D075-3864-4DEA-98A3-45637F96679C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42} = {FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "..\Test\Test.2003.vcproj", "{00D28514-6D7B-44AB-97E5-4599C670F6B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8879D075-3864-4DEA-98A3-45637F96679C} = {8879D075-3864-4DEA-98A3-45637F96679C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32Tools", "..\JetByteTools\Win32Tools\Win32Tools.2003.vcproj", "{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Unicode Debug = Unicode Debug
+		Unicode Release = Unicode Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8879D075-3864-4DEA-98A3-45637F96679C}.Debug.ActiveCfg = Debug|Win32
+		{8879D075-3864-4DEA-98A3-45637F96679C}.Debug.Build.0 = Debug|Win32
+		{8879D075-3864-4DEA-98A3-45637F96679C}.Release.ActiveCfg = Release|Win32
+		{8879D075-3864-4DEA-98A3-45637F96679C}.Release.Build.0 = Release|Win32
+		{8879D075-3864-4DEA-98A3-45637F96679C}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{8879D075-3864-4DEA-98A3-45637F96679C}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{8879D075-3864-4DEA-98A3-45637F96679C}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{8879D075-3864-4DEA-98A3-45637F96679C}.Unicode Release.Build.0 = Unicode Release|Win32
+		{00D28514-6D7B-44AB-97E5-4599C670F6B1}.Debug.ActiveCfg = Debug|Win32
+		{00D28514-6D7B-44AB-97E5-4599C670F6B1}.Debug.Build.0 = Debug|Win32
+		{00D28514-6D7B-44AB-97E5-4599C670F6B1}.Release.ActiveCfg = Release|Win32
+		{00D28514-6D7B-44AB-97E5-4599C670F6B1}.Release.Build.0 = Release|Win32
+		{00D28514-6D7B-44AB-97E5-4599C670F6B1}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{00D28514-6D7B-44AB-97E5-4599C670F6B1}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{00D28514-6D7B-44AB-97E5-4599C670F6B1}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{00D28514-6D7B-44AB-97E5-4599C670F6B1}.Unicode Release.Build.0 = Unicode Release|Win32
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}.Debug.ActiveCfg = Debug|Win32
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}.Debug.Build.0 = Debug|Win32
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}.Release.ActiveCfg = Release|Win32
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}.Release.Build.0 = Release|Win32
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{FE9AA25A-4426-44FC-BCAB-E4C848CFDC42}.Unicode Release.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
