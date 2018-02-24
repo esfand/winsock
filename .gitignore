@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# VStudio 2017
+*.log
+*.tlog
+Upgradelog.htm
+*.pdbs
+*.idb
+*.filters
+/Debug/

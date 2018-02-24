@@ -38,7 +38,10 @@
 //
 //
 
-#pragma warning (disable:4127)
+//#pragma warning (disable:4127)
+#pragma comment (lib, "ws2_32.lib")
+#pragma comment (lib, "mswsock.lib")
+#pragma comment (lib, "advapi32.lib")
 
 #ifdef _IA64_
 	#pragma warning(disable:4706 4267)
@@ -543,6 +546,3 @@ static int myprintf (const char *lpFormat, ... ) {
 
 	return nLen ;
 }
-
-
-

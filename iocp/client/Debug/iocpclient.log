@@ -1,5 +1,0 @@
-﻿  IocpClient.Cpp
-c:\users\esfand\devcpp\winsock\iocp\client\iocpclient.cpp(98): warning C4996: 'GetVersionExA': was declared deprecated
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
-IocpClient.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-  iocpclient.vcxproj -> C:\Users\esfand\devcpp\winsock\iocp\client\Debug\iocpclient.exe
