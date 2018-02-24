@@ -395,7 +395,7 @@ BOOL CreateListenSocket(void) {
         return(FALSE);
 	}
 
-	g_sdListen = WSASocket(addrlocal->ai_family, addrlocal->ai_socktype, addrlocal->ai_protocol, 
+	g_sdListen = WSASocketW(addrlocal->ai_family, addrlocal->ai_socktype, addrlocal->ai_protocol, 
 						   NULL, 0, WSA_FLAG_OVERLAPPED); 
 	if( g_sdListen == INVALID_SOCKET ) {
 		myprintf("WSASocket(g_sdListen) failed: %d\n", WSAGetLastError());

@@ -37,7 +37,7 @@
 #ifdef _IA64_
 	#pragma warning(disable:4267)
 #endif 
-
+//#define UNICODE
 #ifndef WIN32_LEAN_AND_MEAN
 	#define WIN32_LEAN_AND_MEAN
 #endif
@@ -325,7 +325,7 @@ SOCKET CreateSocket(void) {
 	int nZero = 0;
 	SOCKET sdSocket = INVALID_SOCKET;
 
-	sdSocket = WSASocket(AF_INET, SOCK_STREAM, IPPROTO_IP, NULL, 0, WSA_FLAG_OVERLAPPED); 
+	sdSocket = WSASocketW(AF_INET, SOCK_STREAM, IPPROTO_IP, NULL, 0, WSA_FLAG_OVERLAPPED); 
 	if( sdSocket == INVALID_SOCKET ) {
 		myprintf("WSASocket(sdSocket) failed: %d\n", WSAGetLastError());
 		return(sdSocket);

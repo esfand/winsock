@@ -67,9 +67,11 @@ Build:
 Usage:
 
     Start the server and wait for connections on port 6001
+    
 	iocpserver -e:6001
 
     Start the client with 32 threads in verbose mode and connect to port 6001
     on the server machine, server_machine.
+
         iocpclient -n:server_machine -t:32 -v -e:6001
 

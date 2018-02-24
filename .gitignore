@@ -39,3 +39,4 @@ Upgradelog.htm
 *.idb
 *.filters
 /Debug/
+/.vs/
